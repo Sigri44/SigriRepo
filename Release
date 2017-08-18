@@ -1,0 +1,8 @@
+Origin: SigriRepo
+Label: SigriRepo
+Suite: stable
+Version: 0.1
+Codename: sigrirepo
+Architectures: iphoneos-arm
+Components: main
+Description: Sigri's Cydia Repository
