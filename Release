@@ -1,8 +1,8 @@
-Origin: SigriRepo
+Origin: Sigri's Repo
 Label: SigriRepo
 Suite: stable
-Version: 0.1
-Codename: sigrirepo
+Version: 1.0
+Codename: Sigri44
 Architectures: iphoneos-arm
 Components: main
 Description: Sigri's Cydia Repository

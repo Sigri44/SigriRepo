@@ -1,3 +1,27 @@
+Package: com.plipala.ccsettings.ios8
+Version: 0.0.7-8
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0)
+Conflicts: com.plipala.ccsettings
+Replaces: com.plipala.ccsettings
+Filename: deb/ccsettings8_0.0.7-8.deb
+Size: 3389440
+MD5sum: acbdc4f42b3f564cf3ed26463400493f
+SHA1: 864c6023cbbb194e772f8d9ca1c773d596e5045e
+SHA256: 247994c409e401898f8e3cdc17e075bda8b95ccc40b61a41d2592dbaac8fcc7c
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=virtualhome8Dp
+Description: Compatible with iOS 8 and 9. More toggles for Control Center. Configure options from Settings.
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
+Author: plipala <plipala@foxmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=virtualhome8Dp
+Dev: plipala
+Icon: file:///Library/PreferenceBundles/phlite.bundle/phantomIcon@2x.png
+Name: CCSettings for iOS 8/9
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.cokepokes.phantom
 Version: 5.3.8-2
 Architecture: iphoneos-arm
@@ -20,4 +44,143 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=phantomDp
 Dev: cokepokes
 Icon: file:///Library/PreferenceBundles/phlite.bundle/phantomIcon@2x.png
 Name: Phantom (Lite) for Snapchat
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.w00tylab.virtualhome8
+Version: 2.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: mobilesubstrate, preferenceloader, firmware (>= 8.0)
+Conflicts: com.w00tylab.virtualhome
+Replaces: com.w00tylab.virtualhome
+Filename: deb/com.w00tylab.virtualhome8_v2.0-1.deb
+Size: 112629
+MD5sum: acbdc4f42b3f564cf3ed26463400493f
+SHA1: 864c6023cbbb194e772f8d9ca1c773d596e5045e
+SHA256: 247994c409e401898f8e3cdc17e075bda8b95ccc40b61a41d2592dbaac8fcc7c
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=virtualhome8Dp
+Description: Compatible with iOS 8 and 9
+Requires device with TouchID
+Also available, Virtual Home (iOS 7)
+Use TouchID sensor as home button.
+
+"Give you home button a break."
+
+Support the following actions:
+- Single tap
+- Double tap
+- Short hold
+- Single tap and short hold
+
+You can use those actions to do the following functions:
+- Sleep, Multitask, open Siri and activate Reachability
+
+Virtual Home also comes with a feature called "QuickUnlock".
+
+"QuickUnlock" allows you to unlock or wake up device by touching the TouchID when the phone is in standby mode.
+It will consume more battery but Virtual Home comes with options to turn it off automatically after a period of inactivity. 
+
+Virtual Home will also unlock your device even if your device is not passcode locked - you can unlock your device by holding the TouchID instead of sliding to unlock.
+
+You can also disable Virtual Home inside any particular app.
+
+It has been tested to work with BioLockdown, iTouchSecure and other TouchID related tweaks.
+
+Requires iOS 8 and TouchID
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
+Author: Moeseth <saurik@saurik.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=virtualhome8Dp
+Dev: Moeseth
+Icon: file:///Library/PreferenceBundles/phlite.bundle/phantomIcon@2x.png
+Name: VirtualHome 8 n 9
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.aidoo.MemSearch
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0)
+Filename: deb/gamegem_1.1.deb
+Size: 1526784
+MD5sum: acbdc4f42b3f564cf3ed26463400493f
+SHA1: 864c6023cbbb194e772f8d9ca1c773d596e5045e
+SHA256: 247994c409e401898f8e3cdc17e075bda8b95ccc40b61a41d2592dbaac8fcc7c
+Section: Utilities
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gamegemDp
+Description: Phantom is in the process of being fully updated to bypass Snapchat’s tweak detection. Currently this is the only Snapchat tweak that works without triggering a connection error or ban!
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
+Author: Aidoo.TK <saurik@saurik.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=gamegemDp
+Dev: Aidoo.TK
+Icon: file:///Library/PreferenceBundles/phlite.bundle/phantomIcon@2x.png
+Name: GameGem
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: ws.hbang.mapsopener
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Size: 244736
+MD5sum: acbdc4f42b3f564cf3ed26463400493f
+SHA1: 864c6023cbbb194e772f8d9ca1c773d596e5045e
+SHA256: 247994c409e401898f8e3cdc17e075bda8b95ccc40b61a41d2592dbaac8fcc7c
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mapsopenerDp
+Description: Phantom is in the process of being fully updated to bypass Snapchat’s tweak detection. Currently this is the only Snapchat tweak that works without triggering a connection error or ban!
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
+Author: HASHBANG Productions <mapsopener@hbang.ws>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=mapsopenerDp
+Dev: HASHBANG Productions
+Icon: file:///Library/PreferenceBundles/phlite.bundle/phantomIcon@2x.png
+Name: MapsOpener
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.cokepokes.phantom
+Version: 5.3.8-2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5000), com.rpetrich.rocketbootstrap
+Conflicts: com.n00neimp0rtant.picarchiver, com.thomasfinch.snapchatsound, com.timecompiler.snapchatlog, com.perascotta.snapmoretext, com.bengerard.snapselect, com.ridan.allsnap, com.drp.snapmaster, com.skylerk99.snapprefs, com.abcapps.snapplus, com.jonluca.sclenses4all, com.cokepokes.libphantom
+Replaces: com.cokepokes.phlite
+Filename: deb/nospotios7_2.1.1.deb
+Size: 9016430
+MD5sum: acbdc4f42b3f564cf3ed26463400493f
+SHA1: 864c6023cbbb194e772f8d9ca1c773d596e5045e
+SHA256: 247994c409e401898f8e3cdc17e075bda8b95ccc40b61a41d2592dbaac8fcc7c
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=phantomDp
+Description: Phantom is in the process of being fully updated to bypass Snapchat’s tweak detection. Currently this is the only Snapchat tweak that works without triggering a connection error or ban!
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
+Author: CokePokes <cokepokes@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=phantomDp
+Dev: cokepokes
+Icon: file:///Library/PreferenceBundles/phlite.bundle/phantomIcon@2x.png
+Name: Phantom (Lite) for Snapchat
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.iky1e.swipeselection
+Version: 1.5.2-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 8.0)
+Filename: deb/swipeselection_1.5.2-1.deb
+Size: 135168
+MD5sum: acbdc4f42b3f564cf3ed26463400493f
+SHA1: 864c6023cbbb194e772f8d9ca1c773d596e5045e
+SHA256: 247994c409e401898f8e3cdc17e075bda8b95ccc40b61a41d2592dbaac8fcc7c
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=swipeselectionDp
+Description: Phantom is in the process of being fully updated to bypass Snapchat’s tweak detection. Currently this is the only Snapchat tweak that works without triggering a connection error or ban!
+Tag: purpose::extension, compatible::ios8, compatible::ios9, compatible::ios10
+Author: iKy1e <freerunnering+SwipeSelection@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=swipeselectionDp
+Dev: iKy1e
+Icon: file:///Library/PreferenceBundles/phlite.bundle/phantomIcon@2x.png
+Name: SwipeSelection
 Sponsor: thebigboss.org <http://thebigboss.org>
